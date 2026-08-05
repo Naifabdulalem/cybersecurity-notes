@@ -8,9 +8,7 @@ Using a scope helps reduce unnecessary traffic and keeps my testing focused on t
 
 For example, if I am testing:
 
-```
-http://example.com
-```
+``
 
 I can add this domain to the scope so Burp ignores requests sent to other websites.
 
@@ -53,7 +51,7 @@ This process is the foundation of many manual web application security tests.
 
 The workflow I learned throughout this room can be summarized as:
 
-```
+
 Open Burp Suite
         │
         ▼
@@ -79,11 +77,11 @@ Send interesting requests to Repeater
         │
         ▼
 Modify requests for further testing
-```
+
 
 Although this room only introduced the basics, this workflow will be used repeatedly in future web penetration testing labs.
 
----
+
 
 # Practical Exercise
 
@@ -99,7 +97,7 @@ During the room, I completed several hands-on tasks, including:
 
 These exercises helped me become more comfortable using Burp Suite in a real testing environment.
 
----
+
 
 # Key Takeaways
 
@@ -114,7 +112,7 @@ After completing this room, I learned that:
 - Defining a scope helps focus testing on the intended target.
 - Even the free Community Edition is powerful enough for learning manual web application testing.
 
----
+
 
 # Personal Notes
 
@@ -126,7 +124,6 @@ A few things I want to remember when using Burp Suite:
 - The **Site Map** is useful for discovering hidden pages and understanding the application's structure.
 - Use **Repeater** to safely test modifications without refreshing the browser every time.
 
----
 
 # Conclusion
 
@@ -134,8 +131,7 @@ This room gave me a solid introduction to Burp Suite and its role in web applica
 
 The hands-on exercises also helped me understand how to map a website, discover hidden endpoints, and become familiar with Burp's interface. These skills provide a strong foundation for future rooms that focus on identifying and exploiting web vulnerabilities.
 
----
-
+c
 # References
 
 - TryHackMe – Burp Suite: The Basics
