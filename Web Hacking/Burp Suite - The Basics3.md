@@ -1,4 +1,4 @@
----
+
 
 # Scoping and Targeting
 
@@ -8,13 +8,13 @@ Using a scope helps reduce unnecessary traffic and keeps my testing focused on t
 
 For example, if I am testing:
 
-``
+
 
 I can add this domain to the scope so Burp ignores requests sent to other websites.
 
 This is especially useful when a website loads resources from external domains such as Google Fonts, CDNs, or analytics services.
 
----
+
 
 # Proxying HTTPS
 
@@ -28,7 +28,6 @@ After installing Burp's CA certificate into the browser, Burp can decrypt HTTPS 
 
 Without installing this certificate, the browser will display SSL or certificate errors.
 
----
 
 # Example Attack
 
@@ -45,7 +44,7 @@ The general workflow is:
 
 This process is the foundation of many manual web application security tests.
 
----
+
 
 # Typical Burp Workflow
 
